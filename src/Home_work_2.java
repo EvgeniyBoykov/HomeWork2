@@ -16,7 +16,6 @@ public class Home_work_2 {
         System.out.println("Задание №4");
         print("Текст сообщения", 5);
     }
-
     // 1. Написать метод, принимающий на вход два целых числа и проверяющий,
 // что их сумма лежит в пределах от 10 до 20 (включительно), если
 // да – вернуть true,в противном случае – false.
@@ -48,7 +47,7 @@ public class Home_work_2 {
 // указанное количество раз;
     public static void print(String message, int n)
     {
-        for (int i = 0; i < n; i++);
+        for (int i = 0; i < n; i++)
         {System.out.println(message);
         }
     }
